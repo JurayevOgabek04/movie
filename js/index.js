@@ -77,8 +77,7 @@ const renderbookmark = function (arr, where) {
 
 }
 
-renderbookmark(locolBook,elulTitle)
-// renderbookmark(FilmBookmark,elulTitle)
+renderbookmark(FilmBookmark,elulTitle)
 
 elMovieList.addEventListener('click', evt => {
   if (evt.target.matches(".bookmarks")) {
